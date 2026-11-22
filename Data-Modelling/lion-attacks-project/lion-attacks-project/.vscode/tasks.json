@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Python (Clean)",
+      "type": "shell",
+      "command": "clear; \"${workspaceFolder}/.venv/bin/python\" \"${file}\"",
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true,
+        "echo": false
+      }
+    }
+  ]
+}
